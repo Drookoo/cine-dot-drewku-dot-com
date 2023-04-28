@@ -1,0 +1,19 @@
+name: Trigger Git Pull on Downstream Runner
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  auto-pull:
+    name: GitPullDownstream
+    if: github.repository == 'Drookoo/cine-dot-drewku-dot-com'
+    runs-on: self-hosted
+    steps:
+      -
+        name: gitpull
+        run: |
+          git config --global --add safe.directory /home/andrew/cine-hugo-site
+          git pull origin main
+        working-directory: /home/andrew/cine-hugo-site/
+    
+
