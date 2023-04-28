@@ -12,8 +12,8 @@ jobs:
       -
         name: gitpull
         run: |
-          git config --global --add safe.directory /home/andrew/cine-hugo-site
+          git config --global --add safe.directory /home/andrew/cine-drewku-dot-com
           git pull origin main
-        working-directory: /home/andrew/cine-hugo-site/
+        working-directory: /home/andrew/cine-drewku-dot-com/
     
 
