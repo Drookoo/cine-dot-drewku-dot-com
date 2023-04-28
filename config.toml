@@ -38,8 +38,8 @@ googleAnalytics = "G-TNEDDW5TL7"
   favicon = true
 
 [Params.social]
-  github = "https://github.com/drookoo/"
-  twitter = "https://twitter.com/drookoo"
+#  github = "https://github.com/drookoo/"
+#  twitter = "https://twitter.com/drookoo"
   email = "hi@drewku.com"
   instagram = "https://instagram.com/polychromeworks"
 
